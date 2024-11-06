@@ -1,0 +1,352 @@
+@font-face {
+    font-family: japan;
+    src: url(./NeueMachina-Regular.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: japan;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+
+.section1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+nav{
+    height: 12vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+nav h1{
+    font-size: 1.6vw;
+}
+#navpart2{
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+
+}
+
+nav>#navpart2>h3{
+    font-size: 0.7vw;
+}
+
+#navpart2>button{
+    background-color: white;
+    color: black;
+    padding: 16px 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 0.8vw;
+}
+
+#sectionpart1{
+    margin-top: 2vh;
+    width: 100%;
+    height: calc(100%-(12vh));
+    background-color: white;
+    
+    display: flex;
+}
+#left{
+    height: 100%;
+    width: 40%;
+    padding-left: 80px;
+}
+
+
+
+
+#left>h1{
+    font-size: 3.8vw;
+    margin-top: 5%;
+}
+
+#left>p{
+    font-size: 16px;
+    width: 80%;
+    line-height: 25px;
+    margin-top: 50px;
+}
+
+#left>button{
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: white;
+    margin-top: 30px;
+    background-color: black;
+    border: none;
+    
+}
+#right{
+    height: 100%;
+    width: 60%;
+    position: relative;
+    
+}
+#right img{
+    margin-left: 15%;
+    height: 100%;
+}
+
+.sectionpart1bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 80px;
+}
+
+.sectionpart1bottom img{
+    height: 40px;
+}
+
+
+
+.section2 .services{
+    height: 90px;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+
+}
+#white{
+    background-color: white;
+    color: black;
+}
+
+.section2 .services h3{
+    font-size: 2vw;
+    background-color: #B9FF6A;
+    font-weight: 600;
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+.section2 .services p{
+    width: 45%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.elem{
+    border-radius: 40px;
+    box-shadow: 0px 10px 0px black;
+    border: 2px solid black;
+    flex-shrink: 0;
+    height: 370px;
+    width: 48%;
+    padding: 30px 60px;
+    display: flex;
+}
+
+.elem .leftpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.elem .leftpart h2{
+    font-size: 30px;
+    width: fit-content;
+    background-color: #B9FF6A;
+    width: 60%;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.elem .leftpart h4{
+    font-size: 20px;   
+    font-weight: 800;
+}
+.elem .leftpart i{
+    margin-right: 10px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;   
+    font-weight: 800;
+}
+
+.elem .leftpart #black{
+    background-color: black;
+    color: #B9FF62;
+}
+
+.elem .rightpart img{
+    height: 100%;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.black{
+    background-color: black;
+}
+
+.black h4{
+    color: white;
+}
+
+
+#section3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#topcontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 93%;
+    margin-top: 8vh;
+    padding: 20px 50px;
+    border-radius: 50px;
+    height: 50vh;
+    background-color: #F3F3F3;
+}
+
+#leftside{
+
+    width: 60%;
+    height: 100%;
+}
+
+#leftside h1{
+    font-size: 3vw;
+    padding: 20px 0px;
+}
+#leftside p{
+    font-size: 18px;
+    width: 50%;   
+    padding: 20px 0px 
+}
+
+#leftside button{
+    padding: 16px 60px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin: 20px 0px;
+}
+
+#rightside{
+    width: 40%;
+    height: 100%;
+}
+#rightside img{
+    height: 90%;
+    width: 100%;
+}
+
+#services{
+    margin: 50px 0px;
+    height: 90px;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+
+}
+
+#services h3{
+    font-size: 2vw;
+    background-color: #B9FF6A;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 8px;
+}
+#services p{
+    width: 45%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#section4{
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+}
+
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 92%;
+    margin: 5vh 0vh;
+    padding: 20px 50px;
+    border-radius: 50px;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.854);
+    gap: 20px;
+
+}
+.card{
+    width: 34%;
+    margin-right: 30px;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 0px;
+    height: 100%;
+    border-right: 2px solid rgb(139, 134, 134);
+}
+.card:nth-child(3){
+    border-right: none;
+}
+.card>p{
+    color: white;
+}
+.card>h2{
+    color: #B9FF62;
+}
+#text{
+    display: flex;
+    align-items: center;
+    
+}
+#text h2{
+    color: #B9FF62;
+}
+
+#text>i{
+    color: #B9FF62;
+    padding: 16px 10px;
+    font-size: 40px;
+
+}
