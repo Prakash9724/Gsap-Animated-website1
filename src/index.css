@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "NeueMachina";
+  src: url("./assets/Fonts/NeueMachina-Regular.ttf");
+}
+@import "tailwindcss";
+
+
+@theme{
+  --font-mono:"NeueMachina";
+}
+
+body{
+  @apply font-mono;
+}
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
